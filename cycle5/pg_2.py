@@ -1,0 +1,10 @@
+from datetime import datetime
+current_time=datetime.now()
+print(f"Current date and time:",datetime.now())
+print(f"Current year:",current_time.strftime("%Y"))
+print(f"Month of the year:",current_time.strftime("%B"))
+print(f"Week number of year:",current_time.strftime("%U"))
+print(f"Weekday of week:",current_time.strftime("%A"))
+print(f"Day of year:",current_time.strftime("%-j"))
+print(f"Day of month:",current_time.strftime("%-d"))
+print(f"Day of week:",current_time.strftime("%w"))
